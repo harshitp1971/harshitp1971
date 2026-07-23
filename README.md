@@ -68,11 +68,12 @@ const harshit = {
 
 ---
 
-## 📊 GitHub Stats
+## 📊 GitHub
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=harshitp1971&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=harshitp1971&layout=compact&theme=tokyonight&hide_border=true" alt="top langs" />
+  <img src="https://img.shields.io/github/followers/harshitp1971?style=for-the-badge&logo=github&label=Followers&color=6C63FF" alt="followers"/>
+  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&logo=github&color=6C63FF&label=Public%20Repos&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fharshitp1971" alt="repos"/>
+  <img src="https://komarev.com/ghpvc/?username=harshitp1971&style=for-the-badge&label=Profile%20Views&color=6C63FF" alt="views"/>
 </div>
 
 <div align="center">
@@ -81,10 +82,17 @@ const harshit = {
 
 ---
 
-## 🏆 GitHub Trophies
+## 🚀 Featured Projects
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=harshitp1971&theme=tokyonight&no-frame=true&column=7&margin-w=10" alt="trophies" />
+
+| Project | Description | Stars |
+|---|---|---|
+| [js_endpoint](https://github.com/harshitp1971/js_endpoint) | Discover JavaScript endpoints & hunt secrets | ![stars](https://img.shields.io/github/stars/harshitp1971/js_endpoint?style=flat&color=6C63FF) |
+| [ip_finder](https://github.com/harshitp1971/ip_finder) | OSINT tool to find real IPs behind CDNs/WAFs | ![stars](https://img.shields.io/github/stars/harshitp1971/ip_finder?style=flat&color=6C63FF) |
+| [ai-assisted-burp-extension](https://github.com/harshitp1971/ai-assisted-burp-extension) | Burp extension using AI for traffic analysis | ![stars](https://img.shields.io/github/stars/harshitp1971/ai-assisted-burp-extension?style=flat&color=6C63FF) |
+| [Book](https://github.com/harshitp1971/Book) | Web hacking vulnerabilities & methodologies | ![stars](https://img.shields.io/github/stars/harshitp1971/Book?style=flat&color=6C63FF) |
+
 </div>
 
 ---
