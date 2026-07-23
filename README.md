@@ -39,15 +39,25 @@
 const harshit = {
   name: "Harshit Patel",
   role: "Application Security Engineer",
-  focus: ["AppSec", "Secure Code Review", "VAPT", "Threat Modeling"],
+  focus: ["AppSec", "Secure Code Review", "VAPT", "Threat Modeling", "OWASP Top 10"],
+  certified: "Google Cybersecurity Professional Certificate",
+  learning: ["AI / LLM Security", "AI Red-Teaming"],
   writesOn: "Medium",
   reachMe: "harshitp1971@gmail.com",
 };
 ```
 
-- 🛡️ Application Security Engineer — securing apps end-to-end
-- 🔍 Into **secure code review, VAPT, and threat modeling**
-- ✍️ I write on [Medium](https://medium.com/@harshitp1971)
+- 🛡️ **Application Security Engineer** securing web apps & APIs across the SDLC
+- 🔎 Hands-on with **secure code review, VAPT, and threat modeling** (OWASP Top 10)
+- 🎓 **Google Cybersecurity Professional Certificate** holder
+- 🤖 Currently learning **AI / LLM security & AI red-teaming**
+- 🧰 I build my own security tooling:
+  - [`js_endpoint`](https://github.com/harshitp1971/js_endpoint) — recon tool to discover JS endpoints & hunt hard-coded secrets
+  - [`ip_finder`](https://github.com/harshitp1971/ip_finder) — OSINT tool to uncover real server IPs behind CDNs/WAFs
+  - [`ai-assisted-burp-extension`](https://github.com/harshitp1971/ai-assisted-burp-extension) — Burp extension using AI to triage HTTP traffic
+- 📚 Author of [**Book**](https://github.com/harshitp1971/Book) — a practical guide to web hacking vulnerabilities & methodology
+- 🌐 Founder of **EpochCyber** — blogs, tools & resources for the security community
+- ✍️ I write on [Medium](https://medium.com/@harshitp1971) and 🐍 code in **Python**
 - 📫 Reach me at **harshitp1971@gmail.com**
 
 ---
@@ -66,6 +76,11 @@ const harshit = {
   <img src="https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux"/>
 </p>
 
+<h3 align="center">🎓 Certifications</h3>
+<p align="center">
+  <img src="https://img.shields.io/badge/Google-Cybersecurity%20Professional-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Cybersecurity"/>
+</p>
+
 ---
 
 ## 📊 GitHub
@@ -79,6 +94,18 @@ const harshit = {
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=harshitp1971&theme=tokyonight&hide_border=true" alt="streak" />
 </div>
+
+---
+
+## 📄 Research
+
+**[Can LLMs Find Broken Tokens?](https://github.com/harshitp1971/jwt-llm-detection)** &nbsp; ![status](https://img.shields.io/badge/status-research--in--progress-yellow?style=flat)
+
+An empirical study comparing **Large Language Models vs. SAST tools** for detecting usage-level **JWT vulnerabilities** in Python — the kind dependency scanners miss because they live in *how code uses a library*, not the library itself.
+
+- 🧪 Built a **252-sample labeled dataset** (119 vulnerable / 133 safe) + scoring harness
+- 📉 Showed SAST baselines miss it: Bandit **F1 0.28**, Semgrep **F1 0.40** — recall **0.00** on 6 semantic flaw classes (alg confusion, `kid` path traversal, missing `exp`/`aud`/`iss`, etc.)
+- 🤖 Motivates **semantic, LLM-based vulnerability detection** &nbsp;·&nbsp; [Read more →](https://github.com/harshitp1971/jwt-llm-detection)
 
 ---
 
