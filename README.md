@@ -1,132 +1,74 @@
-<!-- Banner / Header -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Harshit%20Patel&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Application%20Security%20Engineer&descAlignY=58&descSize=18" alt="header"/>
+# Hi, I'm Harshit Patel 👋
 
-<!-- Typing animation -->
-<div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Application+Security+Engineer+%F0%9F%9B%A1%EF%B8%8F;Breaking+things+to+make+them+safer;I+write+on+Medium+%E2%9C%8D%EF%B8%8F;Always+learning+something+new+%F0%9F%9A%80" alt="Typing SVG" />
-  </a>
-</div>
+**Application Security Engineer · Vulnerability Researcher · DevSecOps**
+I find and fix security flaws in web apps & APIs, before attackers do.
 
-<!-- Profile views + Followers -->
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=harshitp1971&label=Profile%20views&color=6C63FF&style=flat" alt="profile views" />
-  <a href="https://github.com/harshitp1971?tab=followers">
-    <img src="https://img.shields.io/github/followers/harshitp1971?label=Followers&style=flat&color=6C63FF" alt="followers" />
-  </a>
-</div>
-
-<br/>
-
-<!-- Socials -->
-<div align="center">
-  <a href="https://medium.com/@harshitp1971" target="_blank">
-    <img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/>
-  </a>
-  <a href="mailto:harshitp1971@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-</div>
+[![Website](https://img.shields.io/badge/Hire_me-parakhwork.com-6C63FF?style=for-the-badge)](https://www.parakhwork.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-harshit682-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/harshit682)
+[![Medium](https://img.shields.io/badge/Medium-@harshitp1971-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@harshitp1971)
+[![Email](https://img.shields.io/badge/Email-harshitp1971@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:harshitp1971@gmail.com)
 
 ---
 
-## 🙋‍♂️ About Me
+## 🛡️ What I do
 
-```typescript
-const harshit = {
-  name: "Harshit Patel",
-  role: "Application Security Engineer",
-  focus: ["AppSec", "Secure Code Review", "VAPT", "Threat Modeling", "OWASP Top 10"],
-  certified: "Google Cybersecurity Professional Certificate",
-  learning: ["AI / LLM Security", "AI Red-Teaming"],
-  writesOn: "Medium",
-  reachMe: "harshitp1971@gmail.com",
-};
-```
+| Service | What you get |
+|---|---|
+| **Web & API Pentesting (VAPT)** | OWASP Top 10 / API Top 10 testing with reproducible PoCs and clear fix guidance |
+| **Secure Code Review** | Manual + SAST-assisted review (Python/Django, JS) focused on real, exploitable issues |
+| **Threat Modeling** | Find design-level risks before they become bugs |
+| **DevSecOps** | Security checks in CI/CD: SAST, secrets scanning, dependency scanning |
 
-- 🛡️ **Application Security Engineer** securing web apps & APIs across the SDLC
-- 🔎 Hands-on with **secure code review, VAPT, and threat modeling** (OWASP Top 10)
-- 🎓 **Google Cybersecurity Professional Certificate** holder
-- 🤖 Currently learning **AI / LLM security & AI red-teaming**
-- 🧰 I build my own security tooling:
-  - [`js_endpoint`](https://github.com/harshitp1971/js_endpoint) — recon tool to discover JS endpoints & hunt hard-coded secrets
-  - [`ip_finder`](https://github.com/harshitp1971/ip_finder) — OSINT tool to uncover real server IPs behind CDNs/WAFs
-  - [`ai-assisted-burp-extension`](https://github.com/harshitp1971/ai-assisted-burp-extension) — Burp extension using AI to triage HTTP traffic
-- 📚 Author of [**Book**](https://github.com/harshitp1971/Book) — a practical guide to web hacking vulnerabilities & methodology
-- 🌐 Founder of **EpochCyber** — blogs, tools & resources for the security community
-- ✍️ I write on [Medium](https://medium.com/@harshitp1971) and 🐍 code in **Python**
-- 📫 Reach me at **harshitp1971@gmail.com**
+📫 Open for freelance projects, reach me via [parakhwork.com](https://www.parakhwork.com) or email.
 
 ---
 
-## 🛠️ Skills & Tools
+## 🔬 Research
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=linux,bash,python,js,git,github,docker,kubernetes,aws,mysql,postgres,burpsuite&perline=6" alt="skills" />
-</div>
+### [Can LLMs Find Broken Tokens?](https://github.com/harshitp1971/jwt-llm-detection) `in progress`
+Empirical study of **LLMs vs. SAST** for detecting usage-level **JWT vulnerabilities** in Python, flaws that dependency scanners miss because they live in *how* a library is used.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white" alt="OWASP"/>
-  <img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" alt="Burp Suite"/>
-  <img src="https://img.shields.io/badge/Metasploit-2A2A2A?style=for-the-badge&logo=metasploit&logoColor=white" alt="Metasploit"/>
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" alt="Wireshark"/>
-  <img src="https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" alt="Kali Linux"/>
-</p>
-
-<h3 align="center">🎓 Certifications</h3>
-<p align="center">
-  <img src="https://img.shields.io/badge/Google-Cybersecurity%20Professional-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Cybersecurity"/>
-</p>
+- 252-sample labeled dataset (119 vulnerable / 133 safe) + scoring harness
+- SAST baselines struggle: **Bandit F1 0.28**, **Semgrep F1 0.40**, with **0.00 recall** on 6 semantic flaw classes (alg confusion, `kid` path traversal, missing `exp`/`aud`/`iss`, …)
+- Motivates semantic, LLM-based vulnerability detection
 
 ---
 
-## 📊 GitHub
+## 🧰 Tools I've built
 
-<div align="center">
-  <img src="https://img.shields.io/github/followers/harshitp1971?style=for-the-badge&logo=github&label=Followers&color=6C63FF" alt="followers"/>
-  <img src="https://img.shields.io/badge/dynamic/json?style=for-the-badge&logo=github&color=6C63FF&label=Public%20Repos&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Fusers%2Fharshitp1971" alt="repos"/>
-  <img src="https://komarev.com/ghpvc/?username=harshitp1971&style=for-the-badge&label=Profile%20Views&color=6C63FF" alt="views"/>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=harshitp1971&theme=tokyonight&hide_border=true" alt="streak" />
-</div>
+| Project | What it does |
+|---|---|
+| [**ai-assisted-burp-extension**](https://github.com/harshitp1971/ai-assisted-burp-extension) | Burp Suite extension that uses an LLM (Claude) to analyze proxied HTTP traffic in real time and surface findings in a dedicated tab |
+| [**js_endpoint**](https://github.com/harshitp1971/js_endpoint) | Fast multi-threaded recon tool: finds JS endpoints, API paths, hard-coded secrets and tokens |
+| [**ip_finder**](https://github.com/harshitp1971/ip_finder) | OSINT tool to find the real origin server IP behind a CDN/WAF |
+| [**Book**](https://github.com/harshitp1971/Book) | Practical guide to web hacking vulnerabilities, tooling and methodology |
+| [**EpochCyber**](https://harshitp1971.github.io) | Blogs, tools and resources for the security community |
 
 ---
 
-## 📄 Research
+## 🧠 Skills
 
-**[Can LLMs Find Broken Tokens?](https://github.com/harshitp1971/jwt-llm-detection)** &nbsp; ![status](https://img.shields.io/badge/status-research--in--progress-yellow?style=flat)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white)
+![OWASP](https://img.shields.io/badge/OWASP-000000?style=flat-square&logo=owasp&logoColor=white)
+![Semgrep](https://img.shields.io/badge/Semgrep-3DDC84?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
-An empirical study comparing **Large Language Models vs. SAST tools** for detecting usage-level **JWT vulnerabilities** in Python — the kind dependency scanners miss because they live in *how code uses a library*, not the library itself.
-
-- 🧪 Built a **252-sample labeled dataset** (119 vulnerable / 133 safe) + scoring harness
-- 📉 Showed SAST baselines miss it: Bandit **F1 0.28**, Semgrep **F1 0.40** — recall **0.00** on 6 semantic flaw classes (alg confusion, `kid` path traversal, missing `exp`/`aud`/`iss`, etc.)
-- 🤖 Motivates **semantic, LLM-based vulnerability detection** &nbsp;·&nbsp; [Read more →](https://github.com/harshitp1971/jwt-llm-detection)
-
----
-
-## 🚀 Featured Projects
-
-<div align="center">
-
-| Project | Description | Stars |
-|---|---|---|
-| [js_endpoint](https://github.com/harshitp1971/js_endpoint) | Discover JavaScript endpoints & hunt secrets | ![stars](https://img.shields.io/github/stars/harshitp1971/js_endpoint?style=flat&color=6C63FF) |
-| [ip_finder](https://github.com/harshitp1971/ip_finder) | OSINT tool to find real IPs behind CDNs/WAFs | ![stars](https://img.shields.io/github/stars/harshitp1971/ip_finder?style=flat&color=6C63FF) |
-| [ai-assisted-burp-extension](https://github.com/harshitp1971/ai-assisted-burp-extension) | Burp extension using AI for traffic analysis | ![stars](https://img.shields.io/github/stars/harshitp1971/ai-assisted-burp-extension?style=flat&color=6C63FF) |
-| [Book](https://github.com/harshitp1971/Book) | Web hacking vulnerabilities & methodologies | ![stars](https://img.shields.io/github/stars/harshitp1971/Book?style=flat&color=6C63FF) |
-
-</div>
+**Security:** Web/API pentesting · Secure code review · Threat modeling · SAST/DAST · Recon & OSINT · JWT / auth flaws · DevSecOps
+**Certification:** Google Cybersecurity Professional Certificate
 
 ---
 
-## 🐍 Contribution Snake
+## 🌱 Currently
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/harshitp1971/harshitp1971/output/github-contribution-grid-snake-dark.svg" alt="snake" />
-</div>
+- 🤖 Exploring **AI / LLM security** and AI red-teaming
+- 🔬 Extending the JWT-vs-LLM study
+- ✍️ Writing practical AppSec write-ups on [Medium](https://medium.com/@harshitp1971)
 
 ---
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Thanks%20for%20visiting!%20%E2%AD%90&fontSize=20&fontColor=ffffff&animation=twinkling" alt="footer"/>
+<sub>“Breaking things to make them safer.”</sub>
