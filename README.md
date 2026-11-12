@@ -30,7 +30,7 @@ Empirical study of **LLMs vs. SAST** for detecting usage-level **JWT vulnerabili
 
 - 252-sample labeled dataset (119 vulnerable / 133 safe) + scoring harness
 - SAST baselines struggle: **Bandit F1 0.28**, **Semgrep F1 0.40**, with **0.00 recall** on 6 semantic flaw classes (alg confusion, `kid` path traversal, missing `exp`/`aud`/`iss`, …)
-- Motivates semantic, LLM-based vulnerability detection
+- First LLM run (local qwen2.5-coder:3b): recall **0.98** vs ≤0.26 for SAST, but a 0.66 false-positive rate; taxonomy-guided prompting lifts exact-class accuracy **0.087 → 0.401**
 
 ---
 
@@ -39,6 +39,8 @@ Empirical study of **LLMs vs. SAST** for detecting usage-level **JWT vulnerabili
 | Project | What it does |
 |---|---|
 | [**ai-assisted-burp-extension**](https://github.com/harshitp1971/ai-assisted-burp-extension) | Burp Suite extension that uses an LLM (Claude) to analyze proxied HTTP traffic in real time and surface findings in a dedicated tab |
+| [**secure-ci-pipeline**](https://github.com/harshitp1971/secure-ci-pipeline) | DevSecOps CI/CD gate: Semgrep, Trivy, pip-audit and OWASP ZAP feed a Python policy gate that blocks merges on High/Critical findings |
+| [**subsense**](https://github.com/harshitp1971/subsense) | Subdomain enumeration + DNS vulnerability discovery (takeover, AXFR, DNSSEC walk, email-auth gaps) for authorized testing |
 | [**js_endpoint**](https://github.com/harshitp1971/js_endpoint) | Fast multi-threaded recon tool: finds JS endpoints, API paths, hard-coded secrets and tokens |
 | [**ip_finder**](https://github.com/harshitp1971/ip_finder) | OSINT tool to find the real origin server IP behind a CDN/WAF |
 | [**Book**](https://github.com/harshitp1971/Book) | Practical guide to web hacking vulnerabilities, tooling and methodology |
